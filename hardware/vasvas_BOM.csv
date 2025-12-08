@@ -1,0 +1,43 @@
+Item;Reference(s);Value
+1;A1;Electrosmith Daisy Seed Rev7
+2;J4/J5;01x20 Socket or DIP40 Socket 15.24mm 2.54mm
+3;U1;4580DD
+4;Y1;Piezo disk 27mm
+5;Y2;Piezo disk 27mm
+6;HL1;LED blue
+7;HL2;LED white
+8;SW1;Button ST-304B
+9;J1;Power Jack DC 5.5 x 2.5
+10;J2;Audio Jack stereo 6.3 mm
+11;J3;Audio Jack stereo 6.3 mm
+12;RV1;Potentiometer 10K B 
+13;RV2;Potentiometer 10K B 
+14;RV3;Potentiometer 10K B 
+15;RV4;Potentiometer 10K B 
+16;R1;Resistor 0.125w 10K
+17;R2;Resistor 0.125w 10K
+18;R3;Resistor 0.125w 100K
+19;R4;Resistor 0.125w 100K
+20;R5;Resistor 0.125w 10K
+21;R6;Resistor 0.125w 10K
+22;R7;Resistor 0.125w 100K
+23;R8;Resistor 0.125w 100K
+24;R9;Resistor 0.125w 100K
+25;R10;Resistor 0.125w 100K
+26;R11;Resistor 0.125w 510
+27;R12;Resistor 0.125w 510
+28;R13;Resistor 0.125w 220
+29;R14;Resistor 0.125w 220
+30;C1;Electrolytic capacitor 100µFx25v
+31;C2;Ceramic capacitor 100nF
+32;C3;Electrolytic capacitor 100µFx16v
+33;C4;Ceramic capacitor 100nF
+34;C5;Ceramic capacitor 100nF
+35;C6;Ceramic capacitor 100nF
+36;C7;Ceramic capacitor 100nF
+37;C8;Electrolytic capacitor 22µFx16v BP
+38;C9;Electrolytic capacitor 22µFx16v BP
+39;D1;1N4004
+40;D2;1N4004
+41;D3;1N4004
+42;D4;1N4004
