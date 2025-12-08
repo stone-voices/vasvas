@@ -33,31 +33,31 @@ private:
   float fDecaySm = 0;
   float fDelaySamples = 0;
   bool fFreeze = false;
-  TFilterLP input_lowpass;
-  TFilterHP input_highpass;
-  TFilterLP tank_lp1;
-  TFilterLP tank_lp2;
-  TFilterHP tank_hp1;
-  TFilterHP tank_hp2;
+  TFilterLP fInpLPF;
+  TFilterHP fInpHPF;
+  TFilterLP fTankLPF1;
+  TFilterLP fTankLPF2;
+  TFilterHP fTankHPF1;
+  TFilterHP fTankHPF2;
   TSmoother fSmootherSize;
   TSmoother fSmootherDecay;
   TSmoother fSmootherTankDiff;
-  TStaticAllPass allpass1;                              
-  TStaticAllPass allpass2;
-  TStaticAllPass allpass3;
-  TStaticAllPass allpass4;
-  TResizedAllPass allpass5;
-  TResizedAllPass allpass6;
-  TResizedAllPass allpass7;
-  TResizedAllPass allpass8;
-  TResizedAllPass allpass9;
-  TResizedAllPass allpass10;
-  TModulatedAllPass mod_allpass1; 
-  TModulatedAllPass mod_allpass2;
-  TDelayLine delay1_tank;                       
-  TDelayLine delay2_tank;
-  TDelayLine delay3_tank;
-  TDelayLine delay4_tank;
+  TStaticAllPass fAllpass1;                              
+  TStaticAllPass fAllpass2;
+  TStaticAllPass fAllpass3;
+  TStaticAllPass fAllpass4;
+  TResizedAllPass fAllpass5;
+  TResizedAllPass fAllpass6;
+  TResizedAllPass fAllpass7;
+  TResizedAllPass fAllpass8;
+  TResizedAllPass fAllpass9;
+  TResizedAllPass fAllpass10;
+  TModulatedAllPass fModAllpass1; 
+  TModulatedAllPass fModAllpass2;
+  TDelayLine fTankDelay1;                       
+  TDelayLine fTankDelay2;
+  TDelayLine fTankDelay3;
+  TDelayLine fTankDelay4;
   void UpdateDecay(float value);
 public:
   TReverb() {}
@@ -68,6 +68,3 @@ public:
   void SetFreeze(bool value);
   void Process(float in, float& outL, float& outR);
 };
-
-
-
