@@ -23,3 +23,5 @@ The prototype was assembled using a 70 x 50 mm breadboard.
 ![app](https://github.com/stone-voices/vasvas/blob/main/hardware/img/vasvas_v1_breadboard.jpg)
 
 The LEDs, together with current-limiting resistors, are mounted on a small piece of a breadboard.
+
+The layout of the elements is very arbitrary, so you can change it at your discretion based on your needs.
