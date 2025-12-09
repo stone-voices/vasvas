@@ -2,7 +2,6 @@
 
 This directory contains the KiCad files for manufacturing the VasVas Noisebox PCB. Includes schematic, pcb, and BOM.
 
-
 ## VasVas Noisebox v1
 
 The VasVas Noisebox v1 uses a plywood case with the following characteristics:
@@ -25,3 +24,7 @@ The prototype was assembled using a 70 x 50 mm breadboard.
 The LEDs, together with current-limiting resistors, are mounted on a small piece of a breadboard.
 
 The layout of the elements is very arbitrary, so you can change it at your discretion based on your needs.
+
+### Some remarks
+
+You can change the schematic diagram of the pre-amplification stage by changing the brand of the operational amplifier to a higher-quality one, or abandon it altogether by replacing it with an amplification stage on a field-effect or bipolar transistor.
