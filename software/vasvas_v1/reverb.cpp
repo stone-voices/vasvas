@@ -136,8 +136,7 @@ void TReverb::Process(float in, float& outL, float& outR)
     tR = 0.5f * (fA2 + fX1 - fX4 + fX6 - fX7 + fX9);
 
     // Stereo enchansment
-    const float m = (tL + tR) * 0.5f;
-    const float s = (tL - tR) * 1.5f;
-    outL = m - s;
-    outR = m + s;
+    outL = 1.125f * tL - 0.125f * tR;
+    outR = 1.125f * tR - 0.125f * tL;
 }
+
