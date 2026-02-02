@@ -26,7 +26,7 @@ using namespace daisysp;
 
 
 DaisyPetal hw;
-::daisy::Parameter rsize, mix, rdecay, shimmer;
+Parameter rsize, mix, rdecay, shimmer;
 float psize, pmix, pdecay, pshimmer;
 float vmix, vdecay, vsize, vshimmer;
 Led led1;
@@ -194,10 +194,10 @@ int main(void)
         buff_out[j] = 0.0;
     }
 
-    rdecay.Init(hw.knob[KNOB_1], 1.0f, 100.0f, ::daisy::Parameter::EXPONENTIAL);
-		rsize.Init(hw.knob[KNOB_2], 0.25f, 4.0f, ::daisy::Parameter::EXPONENTIAL);
-		shimmer.Init(hw.knob[KNOB_3], 0.0f, 1.0f, ::daisy::Parameter::LINEAR);
-    mix.Init(hw.knob[KNOB_4], 0.0f, 1.0f, ::daisy::Parameter::LINEAR);
+    rdecay.Init(hw.knob[KNOB_1], 1.0f, 100.0f, Parameter::EXPONENTIAL);
+		rsize.Init(hw.knob[KNOB_2], 0.5f, 2.5f, Parameter::EXPONENTIAL);
+		shimmer.Init(hw.knob[KNOB_3], 0.0f, 1.0f, Parameter::LINEAR);
+    mix.Init(hw.knob[KNOB_4], 0.0f, 1.0f, Parameter::LINEAR);
 		   
 
     led1.Init(hw.seed.GetPin(LED_1),false);
